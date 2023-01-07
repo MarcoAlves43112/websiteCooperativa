@@ -189,7 +189,7 @@
         width:450px;
         height:250px;
         position: absolute;
-        top:105%;
+        top:98%;
         left:25.5%;
     }
 
@@ -198,7 +198,7 @@
         width:450px; 
         height:250px; 
         position: absolute; 
-        top:175%; 
+        top:165%; 
         left: 25.5%;
     }
 
@@ -207,7 +207,7 @@
         width:120px;
         height:120px; 
         position: absolute; 
-        top:115%; 
+        top:110%; 
         left: 12%;
     }
 
@@ -216,7 +216,7 @@
         width:120px;
         height:150px;
         position: absolute; 
-        top:155%; 
+        top:151%; 
         left:15%;
     }
 
@@ -225,8 +225,8 @@
         width:130px;
         height:120px; 
         position: absolute; 
-        top:100%; 
-        left: 15%;
+        top:93%; 
+        left: 18%;
     } 
 
     .wineimage2
@@ -234,8 +234,8 @@
         width:150px;
         height:150px;
         position: absolute; 
-        top:130%; 
-        left: 10%;
+        top:115%; 
+        left: 15%;
     }
     
     p
@@ -356,7 +356,7 @@
     {
         position: absolute;
         left: 275px;
-        top: 675px;
+        top: 655px;
         font-size: 15px;
     }
     
@@ -364,7 +364,7 @@
     {
         position: absolute;
         left: 275px;
-        top: 875px;
+        top: 820px;
         font-size: 15px;
     }
 
@@ -657,7 +657,7 @@ img
     width:170px;
     height:170px; 
     position: absolute; 
-    top:140%; 
+    top:135%; 
     left: 25%;
 }
 
@@ -666,26 +666,26 @@ img
     width:170px;
     height:170px;
     position: absolute; 
-    top:180%; 
+    top:175%; 
     left: 28%;
 }
 
 .wineimage1
 {
-    width:160px;
-    height:160px; 
+    width:140px;
+    height:140px; 
     position: absolute; 
-    top:125%; 
-    left: 28%;
+    top:120%; 
+    left: 30%;
 }
 
 .wineimage2
 {
-    width:170px;
-    height:170px;
+    width:150px;
+    height:150px;
     position: absolute; 
-    top:152%; 
-    left: 28%;
+    top:142%; 
+    left: 30%;
 }
 
 p
@@ -813,7 +813,7 @@ h6
 {
     position: absolute;
     left: 0px;
-    top: 460px;
+    top: 430px;
     font-size: 15px;
 }
 
