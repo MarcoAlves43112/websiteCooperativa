@@ -1,3 +1,512 @@
+@media only screen and (min-width: 400px){
+    *{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    header 
+    {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .open-button {
+        background-color: #24301e;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
+        width: 200px;
+    }
+      
+      /* The popup chat - hidden by default */
+    .chat-popup 
+    {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+    }
+      
+      /* Add styles to the form container */
+      .form-container {
+        max-width: 500px;
+        width: 300px;
+        padding: 10px;
+        background-color: white;
+    }
+    
+      /* When the textarea gets focus, do something */
+      .form-container textarea:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+      
+      /* Set a style for the submit/send button */
+      .form-container .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom:10px;
+        opacity: 0.8;
+      }
+      
+      /* Add a red background color to the cancel button */
+      .form-container .cancel {
+        background-color: rgb(157, 10, 10);
+      }
+      
+      /* Add some hover effects to buttons */
+      .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+      }
+    
+    ul  
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+    nav 
+    {
+        background: #517240;
+        padding: 20px;
+        margin-bottom: -5px;
+        margin-top: -10px;
+    }
+
+    .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    position: absolute;
+    height: 20px;
+    font-size: 10px;
+    width: 50px;
+    left: 380px;
+    top: 15px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+    ul li
+    {
+        list-style: none;    
+    }
+    
+    a
+    {
+        border-radius: 50px;
+    }
+    
+    .img1
+    {
+        width:450px; 
+        height:250px;
+        position: absolute;
+        top:130%;
+        left:35.5%;
+    }
+
+    li a
+    {
+        text-decoration: none;
+        margin: 10px;
+        padding : 10px;
+        color : rgb(0, 0, 0);
+        font-size: 10px;
+    }
+    
+    li a:hover
+    {
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    img
+    {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .eventsimage1
+    {
+        width:380px;
+        height:180px;
+        position: absolute;
+        top:75%;
+        left:12%;
+    }
+
+    .eventsimage2
+    {
+        width:380px; 
+        height:180px; 
+        position: absolute; 
+        top:133%; 
+        left: 12%;
+    }
+
+    .azeiteimage1
+    {
+        width:0px;
+        height:0px; 
+        position: absolute; 
+        top:120%; 
+        left: 42%;
+    }
+
+    .azeiteimage2
+    {
+        width:0px;
+        height:0px;
+        position: absolute; 
+        top:139%; 
+        left:15%;
+    }
+
+    .wineimage1
+    {
+        width:0px;
+        height:0px; 
+        position: absolute; 
+        top: 90%; 
+        left: 35%;
+    } 
+
+    .wineimage2
+    {
+        width: 0px;
+        height:0px;
+        position: absolute; 
+        top:105%; 
+        left: 10%;
+    }
+    
+    p
+    {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    
+    h1
+    {
+        font-size: 35px;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .frequently
+{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: 120px;
+}
+
+.question1
+{
+    font-size: 15px;
+    color: #517240;
+    position: absolute;
+    top: 80px;
+    left: 33px;
+}
+
+.question2
+{
+    font-size: 15px;
+    color: #517240;
+    position: absolute;
+    top: 150px;
+    left: 33px;   
+}
+
+.answer1
+{
+    color:rgb(62, 62, 62);
+    font-size: 10px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+.answer2
+{
+    color:rgb(62, 62, 62);
+    font-size: 10px;
+    text-align: justify;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+
+center
+{
+    font-size: 10px;
+}
+    
+    h2
+    {
+        position: relative;
+        margin: 50px;
+        text-align: center;
+        color:#273620;
+    }
+    
+    h3
+    {
+        margin: 50px;
+        text-align: center;
+        color:black;
+        font-size: 10px;
+    }
+    
+    h4
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    h5
+    {
+        text-align: center;
+        font-size: 8px;
+    }
+    
+    h6
+    {
+        position: relative;
+        padding-left: 50px;
+        font-size: 10px; 
+    }
+
+    .olivetext1
+    {
+        position: absolute;
+        left: 190px;
+        top: 535px;
+        font-size: 12px;
+    }
+    
+    .olivetext2
+    {
+        position: absolute;
+        left: 180px;
+        top: 870px;
+        font-size: 12px;
+    }
+
+    .winetext1
+    {
+        position: absolute;
+        left: 150px;
+        top: 500px;
+        font-size: 12px;
+    }
+    
+    .winetext2
+    {
+        position: absolute;
+        left: 150px;
+        top: 710px;
+        font-size: 12px;
+    }
+
+    footer
+    {
+        color: white;
+        font-size: 14px;
+        margin-top: 100px;
+    }
+
+    .faqs
+    {
+        font-size: 0px;
+        position: relative;
+        left: 675px;
+        top: -15px;
+    }
+
+    
+    body 
+    {
+        background: #fff3b598;
+    }
+    
+    input
+    {
+        align-self: center;
+    }
+    
+    .button 
+    {
+        border: none;
+        color: black;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 1px 1px;
+        cursor: pointer;
+        text-align: center;
+        margin: auto;
+        display: grid;
+    
+    }
+    
+    .button1
+    {
+        background-color: #517240;
+        box-sizing: border-box;
+    }
+    .button2 
+    {
+        background-color: #517240;
+        margin-top: 20px;
+        content: 50px, 50px;
+    }
+    
+    .button:hover
+    {
+        color: white;
+    }
+
+    .buttonbuywine1
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 5px;
+    width: 50px;
+    top: 620px;
+    left: 200px;
+    font-size: 12px;
+}
+
+.buttonbuywine2
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 5px;
+    width: 50px;
+    top: 820px;
+    left: 200px;
+    font-size: 12px;
+}
+
+.buttonbuyoliveoil1
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 5px;
+    width: 50px;
+    top: 785px;
+    left: 200px;
+    font-size: 12px;
+}
+
+.buttonbuyoliveoil2
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 5px;
+    width: 50px;
+    top: 1050px;
+    left: 200px;
+    font-size: 12px;
+}
+
+    .logo
+    {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        width:80px; 
+        height:50px; 
+        
+    }
+    
+    .instagrambtn
+    {
+        position: absolute;
+        top: 18px;
+        left: 440px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .facebookbtn
+    {
+        position: absolute;
+        top: 15px;
+        left: 455px;
+        height: 20px;
+        width: 20px;
+    }
+}
 @media only screen and (min-width: 768px){
     *{
         margin : 0;
@@ -94,8 +603,8 @@
     position: absolute;
     height: 20px;
     font-size: 10px;
-    width: 110px;
-    left: 600px;
+    width: 100px;
+    left: 570px;
     top: 15px;
   }
   
@@ -189,8 +698,8 @@
         width:450px;
         height:250px;
         position: absolute;
-        top:95%;
-        left:25.5%;
+        top:90%;
+        left:21%;
     }
 
     .eventsimage2
@@ -198,17 +707,17 @@
         width:450px; 
         height:250px; 
         position: absolute; 
-        top:160%; 
-        left: 25.5%;
+        top:152%; 
+        left: 21%;
     }
 
     .azeiteimage1
     {
-        width:120px;
-        height:120px; 
+        width:100px;
+        height:100px; 
         position: absolute; 
-        top:110%; 
-        left: 12%;
+        top:100%; 
+        left: 5%;
     }
 
     .azeiteimage2
@@ -216,8 +725,8 @@
         width:120px;
         height:150px;
         position: absolute; 
-        top:150%; 
-        left:15%;
+        top:153%; 
+        left:6%;
     }
 
     .wineimage1
@@ -225,8 +734,8 @@
         width:130px;
         height:120px; 
         position: absolute; 
-        top: 92%; 
-        left: 15%;
+        top: 90%; 
+        left: 7%;
     } 
 
     .wineimage2
@@ -234,8 +743,8 @@
         width:150px;
         height:150px;
         position: absolute; 
-        top:113%; 
-        left: 10%;
+        top:120%; 
+        left: 3%;
     }
     
     p
@@ -254,6 +763,11 @@
         top: 30%;
         left: 55%;
         transform: translate(-50%, -50%);
+    }
+
+    center
+    {
+        font-size: 14px;
     }
 
     .frequently
@@ -332,39 +846,39 @@
     h6
     {
         position: relative;
-        padding-left: 275px;
+        padding-left: 170px;
         font-size: 12px; 
     }
     
     .olivetext1
     {
         position: absolute;
-        left: 275px;
-        top: 700px;
+        left: 170px;
+        top: 660px;
         font-size: 15px;
     }
     
     .olivetext2
     {
         position: absolute;
-        left: 275px;
-        top: 1010px;
+        left: 170px;
+        top: 1020px;
         font-size: 15px;
     }
 
     .winetext1
     {
         position: absolute;
-        left: 275px;
-        top: 635px;
+        left: 170px;
+        top: 615px;
         font-size: 15px;
     }
     
     .winetext2
     {
         position: absolute;
-        left: 275px;
-        top: 797px;
+        left: 170px;
+        top: 835px;
         font-size: 15px;
     }
 
@@ -428,6 +942,50 @@
         color: white;
     }
 
+    .buttonbuywine1
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 80px;
+    top: 735px;
+    left: 540px;
+    font-size: 12px;
+}
+
+.buttonbuywine2
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 80px;
+    top: 960px;
+    left: 540px;
+    font-size: 12px;
+}
+
+.buttonbuyoliveoil1
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 60px;
+    top: 935px;
+    left: 540px;
+    font-size: 12px;
+}
+
+.buttonbuyoliveoil2
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 60px;
+    top: 1210px;
+    left: 540px;
+    font-size: 12px;
+}
+
     .logo
     {
         position: absolute;
@@ -442,7 +1000,7 @@
     {
         position: absolute;
         top: 15px;
-        left: 730px;
+        left: 680px;
         height: 20px;
         width: 20px;
     }
@@ -451,7 +1009,7 @@
     {
         position: absolute;
         top: 10.25px;
-        left: 750px;
+        left: 700px;
         height: 30px;
         width: 30px;
     }
@@ -640,7 +1198,7 @@ img
     width:450px;
     height:250px;
     position: absolute;
-    top:125%;
+    top:122%;
     left:35.5%;
 }
 
@@ -649,7 +1207,7 @@ img
     width:450px; 
     height:250px; 
     position: absolute; 
-    top:188%; 
+    top:182%; 
     left: 35.5%;
 }
 
@@ -658,7 +1216,7 @@ img
     width:170px;
     height:170px; 
     position: absolute; 
-    top:135%; 
+    top:130%; 
     left: 22%;
 }
 
@@ -667,7 +1225,7 @@ img
     width:170px;
     height:170px;
     position: absolute; 
-    top:175%; 
+    top:165%; 
     left: 25%;
 }
 
@@ -676,8 +1234,8 @@ img
     width:160px;
     height:160px; 
     position: absolute; 
-    top:118%; 
-    left: 26%;
+    top:122%; 
+    left: 28%;
 }
 
 .wineimage2
@@ -685,8 +1243,8 @@ img
     width:170px;
     height:170px;
     position: absolute; 
-    top:142%; 
-    left: 24%;
+    top:152%; 
+    left: 26%;
 }
 
 p
@@ -694,6 +1252,12 @@ p
     text-align: center;
     padding: 10px;
     margin: 10px;
+}
+
+
+center
+{
+    font-size: 16px;
 }
 
 h1
@@ -790,7 +1354,7 @@ h6
 {
     position: absolute;
     left: 0px;
-    top: 340px;
+    top: 330px;
     font-size: 15px;
 }
     
@@ -798,7 +1362,7 @@ h6
 {
     position: absolute;
     left: 0px;
-    top: 640px;
+    top: 690px;
     font-size: 15px;
 }
 
@@ -814,14 +1378,13 @@ h6
 {
     position: absolute;
     left: 0px;
-    top: 440px;
+    top: 500px;
     font-size: 15px;
 }
 
 
 strong
 {
-    position: relative;
     margin: 600px;
     font-size: 15px;
 }
@@ -882,6 +1445,50 @@ input
 .button:hover
 {
     color: white;
+}
+
+.buttonbuywine1
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 80px;
+    top: 990px;
+    left: 990px;
+    font-size: 12px;
+}
+
+.buttonbuywine2
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 80px;
+    top: 1200px;
+    left: 990px;
+    font-size: 12px;
+}
+
+.buttonbuyoliveoil1
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 80px;
+    top: 1200px;
+    left: 990px;
+    font-size: 12px;
+}
+
+.buttonbuyoliveoil2
+{
+    position: absolute;
+    background-color: #517240;
+    margin: 10px;
+    width: 80px;
+    top: 1480px;
+    left: 990px;
+    font-size: 12px;
 }
 
 .logo
