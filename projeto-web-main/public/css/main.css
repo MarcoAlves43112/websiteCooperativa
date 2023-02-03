@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 200px){
     *{
         margin : 0;
         padding: 0;
@@ -725,7 +725,7 @@ center
         width:120px;
         height:150px;
         position: absolute; 
-        top:153%; 
+        top:150%; 
         left:6%;
     }
 
@@ -1225,7 +1225,7 @@ img
     width:170px;
     height:170px;
     position: absolute; 
-    top:165%; 
+    top:182%; 
     left: 25%;
 }
 
