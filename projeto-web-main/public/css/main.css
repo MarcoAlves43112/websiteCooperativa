@@ -1,4 +1,4 @@
-@media only screen and (min-width: 200px){
+@media only screen and (max-width: 575px){
     *{
         margin : 0;
         padding: 0;
@@ -89,6 +89,7 @@
     }
 
     .topnav {
+    max-width: 100%;
     overflow: hidden;
     background-color: #e9e9e9;
     position: absolute;
@@ -186,6 +187,7 @@
 
     .eventsimage1
     {
+        max-width: 100%;
         width:380px;
         height:180px;
         position: absolute;
@@ -195,6 +197,7 @@
 
     .eventsimage2
     {
+        max-width: 100%;
         width:380px; 
         height:180px; 
         position: absolute; 
@@ -204,6 +207,7 @@
 
     .azeiteimage1
     {
+        max-width: 100%;
         width:0px;
         height:0px; 
         position: absolute; 
@@ -213,6 +217,7 @@
 
     .azeiteimage2
     {
+        max-width: 100%;
         width:0px;
         height:0px;
         position: absolute; 
@@ -222,6 +227,7 @@
 
     .wineimage1
     {
+        max-width: 100%;
         width:0px;
         height:0px; 
         position: absolute; 
@@ -231,6 +237,7 @@
 
     .wineimage2
     {
+        max-width: 100%;
         width: 0px;
         height:0px;
         position: absolute; 
@@ -355,7 +362,7 @@ center
     {
         position: absolute;
         left: 180px;
-        top: 870px;
+        top: 915px;
         font-size: 12px;
     }
 
@@ -463,7 +470,7 @@ center
     background-color: #517240;
     margin: 5px;
     width: 50px;
-    top: 785px;
+    top: 835px;
     left: 200px;
     font-size: 12px;
 }
@@ -474,7 +481,7 @@ center
     background-color: #517240;
     margin: 5px;
     width: 50px;
-    top: 1050px;
+    top: 1100px;
     left: 200px;
     font-size: 12px;
 }
@@ -491,6 +498,7 @@ center
     
     .instagrambtn
     {
+        max-width: 100%;
         position: absolute;
         top: 18px;
         left: 440px;
@@ -500,6 +508,7 @@ center
 
     .facebookbtn
     {
+        max-width: 100%;
         position: absolute;
         top: 15px;
         left: 455px;
@@ -507,7 +516,7 @@ center
         width: 20px;
     }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 991px){
     *{
         margin : 0;
         padding: 0;
@@ -598,6 +607,7 @@ center
     }
 
     .topnav {
+    max-width: 100%;    
     overflow: hidden;
     background-color: #e9e9e9;
     position: absolute;
@@ -695,6 +705,7 @@ center
 
     .eventsimage1
     {
+        max-width: 100%;
         width:450px;
         height:250px;
         position: absolute;
@@ -704,6 +715,7 @@ center
 
     .eventsimage2
     {
+        max-width: 100%;
         width:450px; 
         height:250px; 
         position: absolute; 
@@ -713,6 +725,7 @@ center
 
     .azeiteimage1
     {
+        max-width: 100%;
         width:100px;
         height:100px; 
         position: absolute; 
@@ -722,15 +735,17 @@ center
 
     .azeiteimage2
     {
+        max-width: 100%;
         width:120px;
         height:150px;
         position: absolute; 
-        top:150%; 
+        top:156%; 
         left:6%;
     }
 
     .wineimage1
     {
+        max-width: 100%;
         width:130px;
         height:120px; 
         position: absolute; 
@@ -740,6 +755,7 @@ center
 
     .wineimage2
     {
+        max-width: 100%;
         width:150px;
         height:150px;
         position: absolute; 
@@ -862,7 +878,7 @@ center
     {
         position: absolute;
         left: 170px;
-        top: 1020px;
+        top: 1090px;
         font-size: 15px;
     }
 
@@ -970,7 +986,7 @@ center
     background-color: #517240;
     margin: 10px;
     width: 60px;
-    top: 935px;
+    top: 1000px;
     left: 540px;
     font-size: 12px;
 }
@@ -981,7 +997,7 @@ center
     background-color: #517240;
     margin: 10px;
     width: 60px;
-    top: 1210px;
+    top: 1260px;
     left: 540px;
     font-size: 12px;
 }
@@ -998,6 +1014,7 @@ center
     
     .instagrambtn
     {
+        max-width: 100%;
         position: absolute;
         top: 15px;
         left: 680px;
@@ -1007,6 +1024,7 @@ center
 
     .facebookbtn
     {
+        max-width: 100%;
         position: absolute;
         top: 10.25px;
         left: 700px;
@@ -1015,7 +1033,7 @@ center
     }
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 992px){
 *{
     margin : 0;
     padding: 0;
@@ -1107,6 +1125,7 @@ nav
 }
 
 .topnav {
+    max-width: 100%;
     overflow: hidden;
     background-color: #e9e9e9;
     position: absolute;
@@ -1195,24 +1214,27 @@ img
 
 .eventsimage1
 {
+    max-width: 100%;
     width:450px;
     height:250px;
     position: absolute;
-    top:122%;
+    top:124%;
     left:35.5%;
 }
 
 .eventsimage2
 {
+    max-width: 100%;
     width:450px; 
     height:250px; 
     position: absolute; 
-    top:182%; 
+    top:186%; 
     left: 35.5%;
 }
 
 .azeiteimage1
 {
+    max-width: 100%;
     width:170px;
     height:170px; 
     position: absolute; 
@@ -1222,6 +1244,7 @@ img
 
 .azeiteimage2
 {
+    max-width: 100%;
     width:170px;
     height:170px;
     position: absolute; 
@@ -1231,6 +1254,7 @@ img
 
 .wineimage1
 {
+    max-width: 100%;
     width:160px;
     height:160px; 
     position: absolute; 
@@ -1240,6 +1264,7 @@ img
 
 .wineimage2
 {
+    max-width: 100%;
     width:170px;
     height:170px;
     position: absolute; 
@@ -1362,7 +1387,7 @@ h6
 {
     position: absolute;
     left: 0px;
-    top: 690px;
+    top: 750px;
     font-size: 15px;
 }
 
@@ -1475,7 +1500,7 @@ input
     background-color: #517240;
     margin: 10px;
     width: 80px;
-    top: 1200px;
+    top: 1270px;
     left: 990px;
     font-size: 12px;
 }
@@ -1503,6 +1528,7 @@ input
 
 .instagrambtn
 {
+    max-width: 100%;
     position: absolute;
     top: 12.6px;
     left: 1430px;
@@ -1512,6 +1538,7 @@ input
 
 .facebookbtn
 {
+    max-width: 100%;
     position: absolute;
     top: 8px;
     left: 1450px;
